@@ -1,0 +1,20 @@
+{
+  "name": "rankup-fitness",
+  "version": "1.0.0",
+  "description": "Gamified fitness tracker: wake up, drink water, train, sleep. Level up your rank.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/core": "^8.6.0"
+  }
+}
